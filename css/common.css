@@ -3,7 +3,7 @@ body{color: #222; font-family: 'Noto Sans', sans-serif;}
 a{text-decoration: none;}
 .container{max-width: 1190px; margin: 0 auto; position: relative;}
 .color_blue{color: #3a476a;}
-.btn{background-color: #00a5b1; color: #fff; border-radius: 15px;}
+.btn{background-color: #00a5b1; color: #fff;}
 
 /* HEADER */
 .header{width: 100%; position: relative;}

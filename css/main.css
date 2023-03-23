@@ -1,4 +1,11 @@
 @charset "UTF-8";
+body{color: #222; font-family: 'Noto Sans', sans-serif;}
+a{text-decoration: none;}
+.container{max-width: 1190px; margin: 0 auto; position: relative;}
+.color_blue{color: #3a476a;}
+.btn{background-color: #00a5b1; color: #fff; border-radius: 15px;}
+.section_h{font-size: 22px; font-family: 'Noto Sans', sans-serif; font-weight: 500; color: #3a466a; padding: 60px 0 28px;}
+
 /* banner */
 .banner{width: 100%;}
 .bannerSwiper{}
@@ -9,3 +16,21 @@
 .bannerSwiper .swiper-pagination span.swiper-pagination-bullet{background-color: #b7b7b7; width: 6px; height: 6px; transition: .5s; opacity: 1; margin: 0 10px;}
 .bannerSwiper .swiper-pagination span.swiper-pagination-bullet-active{width: 86px; border-radius: 3px;}
 
+/* contents */
+.contents{width: 100%;}
+.contents h2{text-transform: capitalize;}
+.contents .content_left{width: 930px; float: left;}
+.contents .content_left ul li{float: left; margin:0 50px 40px 0;}
+.contents .content_left ul li a{display: block; width: 260px;}
+.contents .content_left ul li a img{width: 100%;}
+.contents .content_left .item-text{height: 100px;}
+.contents .content_left .item-text .event{color: #888; font-size: 12px; font-weight: 500; padding: 16px 0 10px;}
+.contents .content_left .item-text .title{font-size: 14px; color: #222; position: relative; padding-left: 18px;}
+.contents .content_left .item-text .title::before{content: ''; display: block; width: 12px; height: 2px; position: absolute; left: 0; top: 6px;background-color: #3a466a;}
+.content_right{width: 260px; background: #c8e2e0 url(../img/m-cafe-bg.jpg) no-repeat; float: right; padding: 0 20px; box-sizing: border-box;}
+.content_right h3{font-size: 16px; color: #00a5b1; font-weight: bold; padding: 30px 0 80px; line-height: 1.4;}
+.content_right div{text-align: center;}
+.content_right div img{width: 220px; height: 174px;}
+.content_right div h4{font-size: 16px; font-weight: bold; color: #000; padding: 30px 0 20px;}
+.content_right div p{font-size: 14px; line-height: 1.4;}
+.content_right div a{display: inline-block; width: 117px; height: 29px; text-align: center; font-size: 15px; line-height: 29px; margin: 20px 0 40px;}
