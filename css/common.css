@@ -6,18 +6,24 @@ a{text-decoration: none;}
 .btn{background-color: #00a5b1; color: #fff; border-radius: 15px;}
 
 /* HEADER */
-.header{}
-.header h1{}
-.header h1 a{}
-.header nav{}
-.header nav>ul{}
-.header nav>ul>li{}
-.header nav>ul>li>a{}
-.header nav>ul>li .sub_menu{}
-.header nav>ul>li .sub_menu ul{}
-.header nav>ul>li .sub_menu ul li{}
-.header nav>ul>li .sub_menu ul li a{}
-.header .header-btn{}
-.header .lang{}
-.header .lang a{}
-.header .lang .en{}
+.header{width: 100%; position: relative;}
+.header.open::after{content: ''; width: 100%; height: 231px; opacity: 0.6; background-color: #f2f2f2; left: 0; top: 124px; display: block;}
+.header .container{display: flex; justify-content: space-between; align-items: center;}
+.header h1{padding: 29px 0;}
+.header h1 a{display: block; width: 100%;}
+/* mainmenu */
+.header nav{width: 810px;}
+.header nav>ul{display: flex; justify-content: center; text-align: center;}
+.header nav>ul>li{position: relative; padding: 0px 0 48px; margin-top: 60px;}
+.header nav>ul>li>a{color: #222; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 0 32px; display: block; cursor: pointer;}
+.header nav>ul>li .sub_menu{position: absolute; width: 100%; height: 231px; top: 64px;padding-top: 15px; display: none; z-index: 3;}
+.header nav>ul>li .sub_menu li a{color: #444; font-family: 'Roboto', sans-serif; padding: 10px 0; display: block; font-size: 14px; cursor: pointer;}
+/* hover */
+.header nav>ul:hover>li .sub_menu{display: block;}
+.header nav>ul>li .sub_menu li a:hover{color: #3A466A; text-decoration: underline; font-weight:700;}
+
+.header .header-btn{width: 133px; font-size: 16px; text-align: center; padding: 10px 0; border-radius: 20px;}
+.header .lang{position: absolute; top: 15px; right: 0;}
+.header .lang a{font-family: 'Noto Sans', sans-serif; font-weight: 500; color: #444; font-size: 12px; text-transform: uppercase; position: relative; padding: 0 8px 0 9px;}
+.header .lang .en{color: #707070;}
+.header .lang .en::before{content: ''; width: 1px; height: 9px; background-color: #d4d4d4; display: inline-block; position: absolute; left: 0; top: 4px;}
