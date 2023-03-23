@@ -7,3 +7,16 @@ menu.addEventListener('mouseover',function(){
 menu.addEventListener('mouseout',function(){
     headerBg.classList.remove('open');
 });
+
+var swiper = new Swiper(".bannerSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});
