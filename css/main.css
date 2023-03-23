@@ -20,6 +20,7 @@ a{text-decoration: none;}
 .contents{width: 100%;}
 .contents h2{text-transform: capitalize;}
 .contents .content_left{width: 930px; float: left;}
+.contents .content_left ul{overflow: hidden;}
 .contents .content_left ul li{float: left; margin:0 50px 40px 0;}
 .contents .content_left ul li a{display: block; width: 260px;}
 .contents .content_left ul li a img{width: 100%;}
@@ -27,6 +28,7 @@ a{text-decoration: none;}
 .contents .content_left .item-text .event{color: #888; font-size: 12px; font-weight: 500; padding: 16px 0 10px;}
 .contents .content_left .item-text .title{font-size: 14px; color: #222; position: relative; padding-left: 18px;}
 .contents .content_left .item-text .title::before{content: ''; display: block; width: 12px; height: 2px; position: absolute; left: 0; top: 6px;background-color: #3a466a;}
+.contents .content_left .btn-more{width: 117px; height: 29px; line-height: 29px; text-align: center; display: block; margin: 0 auto; border: 1px solid #3A466A; color: #3A466A; font-size: 12px; border-radius: 15px;}
 .content_right{width: 260px; background: #c8e2e0 url(../img/m-cafe-bg.jpg) no-repeat; float: right; padding: 0 20px; box-sizing: border-box;}
 .content_right h3{font-size: 16px; color: #00a5b1; font-weight: bold; padding: 30px 0 80px; line-height: 1.4;}
 .content_right div{text-align: center;}
