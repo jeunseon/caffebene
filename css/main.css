@@ -20,19 +20,20 @@ a{text-decoration: none;}
 .contents{width: 100%;}
 .contents h2{text-transform: capitalize;}
 .contents .content_left{width: 930px; float: left;}
-.contents .content_left ul{overflow: hidden;}
-.contents .content_left ul li{float: left; margin:0 50px 40px 0;}
+.contents .content_left ul{height: 950px; position: relative;}
+.contents .content_left ul li{position: absolute; margin:0 50px 40px 0;}
 .contents .content_left ul li a{display: block; width: 260px;}
 .contents .content_left ul li a img{width: 100%;}
 .contents .content_left .item-text{height: 100px;}
 .contents .content_left .item-text .event{color: #888; font-size: 12px; font-weight: 500; padding: 16px 0 10px;}
-.contents .content_left .item-text .title{font-size: 14px; color: #222; position: relative; padding-left: 18px;}
+.contents .content_left .item-text .title{font-size: 14px; color: #222; position: relative; padding-left: 18px; letter-spacing: -0.7px; line-height: 1.43;}
 .contents .content_left .item-text .title::before{content: ''; display: block; width: 12px; height: 2px; position: absolute; left: 0; top: 6px;background-color: #3a466a;}
-.contents .content_left .btn-more{width: 117px; height: 29px; line-height: 29px; text-align: center; display: block; margin: 0 auto; border: 1px solid #3A466A; color: #3A466A; font-size: 12px; border-radius: 15px;}
+.contents .content_left .btn-more{width: 117px; height: 29px; line-height: 29px; text-align: center; display: block; margin: 0 auto; border: 1px solid #3A466A; color: #3A466A; font-size: 12px; border-radius: 15px; margin-bottom: 100px;}
+/* content right */
 .content_right{width: 260px; background: #c8e2e0 url(../img/m-cafe-bg.jpg) no-repeat; float: right; padding: 0 20px; box-sizing: border-box;}
 .content_right h3{font-size: 16px; color: #00a5b1; font-weight: bold; padding: 30px 0 80px; line-height: 1.4;}
 .content_right div{text-align: center;}
 .content_right div img{width: 220px; height: 174px;}
 .content_right div h4{font-size: 16px; font-weight: bold; color: #000; padding: 30px 0 20px;}
-.content_right div p{font-size: 14px; line-height: 1.4;}
-.content_right div a{display: inline-block; width: 117px; height: 29px; text-align: center; font-size: 15px; line-height: 29px; margin: 20px 0 40px;}
+.content_right div p{font-size: 14px; line-height: 1.4; letter-spacing: -0.7px;}
+.content_right div a{display: inline-block; width: 117px; height: 29px; text-align: center; font-size: 12px; line-height: 29px; margin: 20px 0 40px;}
