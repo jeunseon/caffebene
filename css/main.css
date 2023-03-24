@@ -8,8 +8,6 @@ a{text-decoration: none;}
 
 /* banner */
 .banner{width: 100%;}
-.bannerSwiper{}
-.bannerSwiper .swiper-wrapper{}
 .bannerSwiper .swiper-wrapper .swiper-slide{height: 720px; overflow: hidden;}
 .bannerSwiper .swiper-wrapper .swiper-slide a{display: block; width: 100%; height: 100%;}
 .bannerSwiper .swiper-wrapper .swiper-slide a img{transform: translateX(-20%);}
@@ -17,7 +15,7 @@ a{text-decoration: none;}
 .bannerSwiper .swiper-pagination span.swiper-pagination-bullet-active{width: 86px; border-radius: 3px;}
 
 /* contents */
-.contents{width: 100%;}
+.contents{width: 100%; overflow: hidden;}
 .contents h2{text-transform: capitalize;}
 .contents .content_left{width: 930px; float: left;}
 .contents .content_left ul{height: 950px; position: relative;}
@@ -28,7 +26,7 @@ a{text-decoration: none;}
 .contents .content_left .item-text .event{color: #888; font-size: 12px; font-weight: 500; padding: 16px 0 10px;}
 .contents .content_left .item-text .title{font-size: 14px; color: #222; position: relative; padding-left: 18px; letter-spacing: -0.7px; line-height: 1.43;}
 .contents .content_left .item-text .title::before{content: ''; display: block; width: 12px; height: 2px; position: absolute; left: 0; top: 6px;background-color: #3a466a;}
-.contents .content_left .btn-more{width: 117px; height: 29px; line-height: 29px; text-align: center; display: block; margin: 0 auto; border: 1px solid #3A466A; color: #3A466A; font-size: 12px; border-radius: 15px; margin-bottom: 100px;}
+.contents .content_left .btn-more{width: 117px; height: 29px; line-height: 29px; text-align: center; display: block; margin: 0 auto 100px; border: 1px solid #3A466A; color: #3A466A; font-size: 12px; border-radius: 15px;}
 /* content right */
 .content_right{width: 260px; background: #c8e2e0 url(../img/m-cafe-bg.jpg) no-repeat; float: right; padding: 0 20px; box-sizing: border-box;}
 .content_right h3{font-size: 16px; color: #00a5b1; font-weight: bold; padding: 30px 0 80px; line-height: 1.4;}
@@ -37,3 +35,25 @@ a{text-decoration: none;}
 .content_right div h4{font-size: 16px; font-weight: bold; color: #000; padding: 30px 0 20px;}
 .content_right div p{font-size: 14px; line-height: 1.4; letter-spacing: -0.7px;}
 .content_right div a{display: inline-block; width: 117px; height: 29px; text-align: center; font-size: 12px; line-height: 29px; margin: 20px 0 40px;}
+
+/* MD Choice */
+.md-choice{padding-bottom: 100px;}
+.md-choice h3{font-size: 22px; color: #3a466a; margin-bottom: 25px;}
+.md-choice .mdSwiper .md-item{width: 230px !important}
+.md-choice .mdSwiper .md-item a{display: block; width: 100%; height: 100%;}
+.md-choice .mdSwiper .md-item .item-img{width: 230px; height: 230px; border:solid 2px transparent; box-sizing: border-box;}
+.md-choice .mdSwiper .md-item:hover .item-img{border:solid 2px #3a466a;}
+.md-choice .mdSwiper .md-item img{width: 100%; height: 100%;}
+.md-choice .mdSwiper .md-item .item-text{padding-top: 14px;}
+.md-choice .mdSwiper .md-item .item-text p{font-size: 14px; color: #222; line-height: 1.43;}
+.md-choice .mdSwiper .md-item .item-text .title{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.md-choice .mdSwiper .md-item .item-text .price{font-weight: 700;}
+.md-choice .mdSwiper .btn{width: 46px; height: 46px; opacity: .46; border-radius: 50%; cursor: pointer;}
+.md-choice .mdSwiper .btn:hover{opacity: 1;}
+.md-choice .mdSwiper .btn.btn-right{background:#3a466a url(../img/md-arr-right.png) no-repeat center;}
+.md-choice .mdSwiper .btn.btn-left{background:#3a466a url(../img/md-arr-left.png) no-repeat center;}
+.swiper-button-next::after,
+.swiper-button-prev::after { display: none;}
+
+/* season */
+.season{margin-bottom: 80px; background: #f2f2f2;}

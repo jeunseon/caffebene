@@ -20,3 +20,17 @@ var swiper = new Swiper(".bannerSwiper", {
       clickable: true,
     },
 });
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".btn-right",
+        prevEl: ".btn-left",
+    },
+});
