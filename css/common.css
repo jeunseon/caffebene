@@ -47,4 +47,11 @@ a{text-decoration: none;}
 .footer-bottom .sns{margin-left: auto;}
 .footer-bottom .sns ul{display: flex;}
 .footer-bottom .sns ul li{margin-left: 11px;}
-.footer-bottom .sns ul li a{display: block; width: 30px; height: 30px;}
+.footer-bottom .sns ul li a{display: block; width: 30px; height: 30px; font-size: 0;}
+
+/* aside */
+.aside{width: 84px; height: 251px; position: fixed; top: 160px; right: 50px; z-index: 5;}
+.aside a{display: block; margin: 15px auto 0; font-size: 0;}
+.aside .aside-sns{width: 32px; height: 32px;}
+.aside .aside-sns.blog{margin: 10px auto 0;}
+.aside .aside-fran{margin-top: 30px;}
