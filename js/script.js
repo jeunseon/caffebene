@@ -12,7 +12,7 @@ var swiper = new Swiper(".bannerSwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
     },
     pagination: {
@@ -21,16 +21,16 @@ var swiper = new Swiper(".bannerSwiper", {
     },
 });
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mdSwiper", {
     slidesPerView: 4,
     spaceBetween: 30,
     loop: true,
     autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
     },
     navigation: {
-        nextEl: ".btn-right",
-        prevEl: ".btn-left",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
