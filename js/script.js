@@ -1,5 +1,17 @@
+// header
 const menu = document.querySelector('nav>ul');
-const headerBg = document.querySelector('.header');
+let headerBg = document.querySelector('.header');
+let headerHeight = headerBg.offsetHeight;
+
+window.onscroll = function(){
+    let windowTop = window.scrollY; 
+    if(windowTop >= headerHeight){
+        headerBg.classList.add('fixed');
+    }else{
+        headerBg.classList.remove('fixed');
+    }
+}
+
 
 menu.addEventListener('mouseover',function(){
     headerBg.classList.add('open');
@@ -8,6 +20,7 @@ menu.addEventListener('mouseout',function(){
     headerBg.classList.remove('open');
 });
 
+// swiper
 var swiper = new Swiper(".bannerSwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -33,4 +46,10 @@ var swiper = new Swiper(".mdSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+});
+
+// topBtn
+const topBtn = document.querySelector('.top-btn');
+topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior: 'smooth'});
 });
