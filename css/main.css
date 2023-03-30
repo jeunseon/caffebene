@@ -39,6 +39,7 @@ a{text-decoration: none;}
 /* MD Choice */
 .md-choice{padding-bottom: 100px;}
 .md-choice h3{font-size: 22px; color: #3a466a; margin-bottom: 25px;}
+.md-choice .mdSwiper{width: 1018px;}
 .md-choice .mdSwiper .md-item{width: 230px !important}
 .md-choice .mdSwiper .md-item a{display: block; width: 100%; height: 100%;}
 .md-choice .mdSwiper .md-item .item-img{width: 230px; height: 230px; border:solid 2px transparent; box-sizing: border-box;}
@@ -48,10 +49,10 @@ a{text-decoration: none;}
 .md-choice .mdSwiper .md-item .item-text p{font-size: 14px; color: #222; line-height: 1.43;}
 .md-choice .mdSwiper .md-item .item-text .title{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .md-choice .mdSwiper .md-item .item-text .price{font-weight: 700;}
-.md-choice .mdSwiper .btn{width: 46px; height: 46px; opacity: .46; border-radius: 50%; cursor: pointer;}
-.md-choice .mdSwiper .btn:hover{opacity: 1;}
-.md-choice .mdSwiper .btn.btn-right{background:#3a466a url(../img/md-arr-right.png) no-repeat center;}
-.md-choice .mdSwiper .btn.btn-left{background:#3a466a url(../img/md-arr-left.png) no-repeat center;}
+.md-choice .md-slide-wrap .btn{width: 46px; height: 46px; opacity: .46; border-radius: 50%; cursor: pointer;}
+.md-choice .md-slide-wrap .btn:hover{opacity: 1;}
+.md-choice .md-slide-wrap .btn.btn-right{background:#3a466a url(../img/md-arr-right.png) no-repeat center;}
+.md-choice .md-slide-wrap .btn.btn-left{background:#3a466a url(../img/md-arr-left.png) no-repeat center;}
 .swiper-button-next::after,
 .swiper-button-prev::after { display: none;}
 
